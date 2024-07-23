@@ -4,7 +4,7 @@
     <Page id="page" title="{i18n>title}">
         <content>
             <FlexBox justifyContent="Center">
-                <Input id="inpBusca"/>
+                <Input id="inpBusca" submit="onPressBuscar"/>
                 <Button text="Buscar" press="onPressBuscar"/>
             </FlexBox>
 

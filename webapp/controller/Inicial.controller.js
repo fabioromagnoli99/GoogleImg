@@ -8,20 +8,7 @@ function (Controller, JSONModel) {
     return Controller.extend("googleimage.controller.Inicial", {
         onInit: function () {
             let ImageList = {
-                Imagens: [
-                    {
-                        url: "https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg",
-                        thumbnail_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUqcK9kNQsjsrZx5At8TNLw21v6fIYc032KV72ECXMgBtChunb&s",
-                        title: "Science of Summer: Where Does Beach Sand Come From? | Live ...",
-                        source: "Live Science"
-                    },
-                    {
-                        url: "https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg",
-                        thumbnail_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUqcK9kNQsjsrZx5At8TNLw21v6fIYc032KV72ECXMgBtChunb&s",
-                        title: "Science of Summer: Where Does Beach Sand Come From? | Live ...",
-                        source: "Live Science"
-                    },
-                ]
+                Imagens: []
             }
 
             let ImageModel = new JSONModel(ImageList);
